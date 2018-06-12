@@ -32,6 +32,7 @@ elif [ $x -ne 4 ]
  then echo "x!=y"
 fi
 
+echo `ls -l`
 
 echo $?
 exit $?
